@@ -2,7 +2,7 @@ from __future__ import print_function
 from sys import platform
 from os import system
 from imp import load_source
-WalabotAPI = load_source('WalabotAPI', 'C:/Program Files/Walabot/WalabotSDK/python/WalabotAPI.py')
+WalabotAPI = load_source('WalabotAPI', 'C:\\Program Files\\Walabot\\WalabotSDK\\python\\WalabotAPI.py')
 import socket, sys
 
 if __name__ == '__main__':
