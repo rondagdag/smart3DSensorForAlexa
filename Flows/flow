@@ -1,0 +1,1 @@
+[{"id":"40d5883a.6eaa98","type":"function","z":"3415f943.00af56","name":"","func":"msg.payload = msg.payload.toString('UTF-8');\nreturn msg;","outputs":1,"noerr":0,"x":319.5,"y":311,"wires":[["c9f96f89.f7252"]]}]
