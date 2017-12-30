@@ -1,0 +1,3 @@
+[submodule "test/libs/alexa-smarthome"]
+	path = test/libs/alexa-smarthome
+	url = https://github.com/alexa/alexa-smarthome.git

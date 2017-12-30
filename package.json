@@ -1,0 +1,20 @@
+{
+  "name": "alexa-smart-home",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Alexa/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint src/"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    
+  },
+  "devDependencies": {
+    "eslint": "^4.9.0",
+    "eslint-config-google": "^0.9.1",
+    "lambda-local": "^1.4.3"
+  }
+}
