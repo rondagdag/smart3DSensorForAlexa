@@ -38,8 +38,7 @@ if __name__ == '__main__':
     				#if index < len(targets):
     				#	finds += ','												
     		finds += ']}'
-    		my_str = 'TARGETS%s' % finds
-    		conn.sendall(str.encode(my_str))			
+    		conn.sendall(str.encode(finds))			
     	conn.close()
     	WalabotAPI.Stop()  # stops Walabot when finished scanning
     	WalabotAPI.Disconnect()  # stops communication with Walabot
