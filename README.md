@@ -3,8 +3,7 @@ smart 3D Sensor For Alexa
 
 Project for the 2017/18 Hackster Walabot project. 
 
-https://www.youtube.com/watch?v=l3IeiW6lzo0&feature=youtu.be
-[![Watch the video]](https://www.youtube.com/watch?v=l3IeiW6lzo0&feature=youtu.be)
+[![Watch the video](https://img.youtube.com/vi/l3IeiW6lzo0/0.jpg)](https://www.youtube.com/watch?v=l3IeiW6lzo0)
 
 Complete instructions and code can be found here:
 
