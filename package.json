@@ -1,20 +1,28 @@
 {
-  "name": "alexa-smart-home",
+  "name": "smart3DSensorForAlexa",
   "version": "1.0.0",
-  "description": "",
-  "main": "Alexa/index.js",
+  "description": "Playground project for a smart 3D Sensor",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "eslint src/"
+    "start": "node Flows/app.js"
   },
-  "author": "",
-  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rondagdag/smart3DSensorForAlexa.git"
+  },
+  "keywords": [
+    "node",
+    "node-red",
+    "npm"
+  ],
+  "author": "Ron Dagdag",
+  "license": "MIT",
   "dependencies": {
-    
-  },
-  "devDependencies": {
-    "eslint": "^4.9.0",
-    "eslint-config-google": "^0.9.1",
-    "lambda-local": "^1.4.3"
+    "express": "^4.16.2",
+    "node-red": "^0.17.5",
+    "node-red-contrib-alexa-local": "^0.3.12",
+    "node-red-node-arduino": "0.0.14",
+    "path": "^0.12.7"
   }
 }
